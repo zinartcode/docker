@@ -1,0 +1,2 @@
+docker run -d --name lair --restart unless-stopped --link spawning-pool:mysql-server -p 8080:80 wordpress
+
